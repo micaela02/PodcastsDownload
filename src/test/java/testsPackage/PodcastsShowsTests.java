@@ -29,11 +29,6 @@ public class PodcastsShowsTests {
     3. Calculeaza si printeaza care este emisiunea de podcast (aceasta este identificata
     prin showId) cea mai ascultata (cea cu cele mai multe download-uri) din San Francisco
     precum si numarul de download-uri asociat acestei emisiuni.
-
-    Vezi mai jos rezultatul asteptat precum si formatul pentru printare
-
-    Most popular show is: Who Trolled Amber
-    Number of downloads is: 24
      */
 
 
@@ -61,11 +56,6 @@ public class PodcastsShowsTests {
     eg. desktops & laptops, mobiles & tablets, smart speakers, digital appliances)
     cel mai folosit pentru a asculta podcast-uri precum si numarul de download-uri
     asociat acestui device.
-
-    Vezi mai jos rezultatul asteptat precum si formatul pentru printare
-
-    Most popular device is: mobiles & tablets
-    Number of downloads is: 60
      */
 
 
@@ -92,13 +82,6 @@ public class PodcastsShowsTests {
      fiecare emisiune de podcast. Printeaza aceasta informatie in ordinea descrescatoare a numarului de
      oportunitati. Asta se traduce tehnic in: pentru fiecare showId, care este numarul de oportunitati
      care contin in lista aw_0_ais.adBreakIndex valoarea preroll.
-
-    Vezi mai jos rezultatul asteptat precum si formatul pentru printare
-
-    Show Id: Stuff You Should Know, Preroll Opportunity Number: 40
-    Show Id: Who Trolled Amber, Preroll Opportunity Number: 40
-    Show Id: Crime Junkie, Preroll Opportunity Number: 30
-    Show Id: The Joe Rogan Experience, Preroll Opportunity Number: 10
      */
 
     @Test
