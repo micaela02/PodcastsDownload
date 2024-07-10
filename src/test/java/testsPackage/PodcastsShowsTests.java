@@ -102,31 +102,4 @@ public class PodcastsShowsTests {
                             + entry.getValue());
                 });
     }
-
-
-    /*
-    6. Cerinta bonus: Folosind event time-ul (originalEventTime) la care au aparut oportunitatile de
-     a insera reclame calculeaza si printeaza doar emisiunile de podcast difuzate saptamanal precum
-      si ziua si ora la care aceste emisiuni sunt difuzate.
-
-    Informatii suplimentare:
-    Toate oportunitatile unui podcast download au acelasi originalEventTime
-    originalEventTime din oportunitati este in format unix timestamp, spre exemplu 1717444800000
-    inseamna Monday, 3 June 2024 20:00:00
-    Timezone-ul referinta este UTC
-    Episoade saptamanale inseamna ca sunt difuzate in aceeasi zi a saptamanii si la aceeasi ora.
-    Spre exemplu, show-ul Who Trolled Amber se difuzeaza in fiecare zi de luni la ora 20:00 si
-    atunci oportunitatile lui vor contine event time-uri precum
-    1716235200000 (20.05.2024 20:00:00)
-    1716840000000 (27.05.2024 20:00:00)
-    1717444800000 (03.06.2024 20:00:00)
-    etc.
-
-    Vezi mai jos rezultatul asteptat precum si formatul pentru printare
-
-    Weekly shows are:
-
-    Crime Junkie - Wed 22:00
-    Who Trolled Amber - Mon 20:00
-     */
 }
